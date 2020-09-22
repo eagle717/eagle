@@ -1,0 +1,222 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANBOX_FYDEOS_INPUT_H_	anbox_input.h	2;"	d
+ANBOX_FYDEOS_RENDERER_H_	renderer.h	2;"	d
+ANBOX_FYDEROS_PLATFORM_AUDIO_SINK_H_	audio_sink.h	2;"	d
+ANBOX_WAYLAND_HELPER_H_	wayland_helper.h	2;"	d
+ANBOX_WAYLAND_KEYBOARD_H_	wayland_keyboard.h	2;"	d
+ANBOX_WAYLAND_PLATFORM_H_	wayland_platform.h	2;"	d
+ANBOX_WAYLAND_POINTER_H_	wayland_pointer.h	2;"	d
+ANBOX_WAYLAND_TOUCH_H_	wayland_touch.h	2;"	d
+ANBOX_WAYLAND_WINDOW_H_	wayland_window.h	2;"	d
+AnboxInput	anbox_input.h	/^  AnboxInput(const std::shared_ptr<input::Manager> &input_manager):    $/;"	f	class:anbox::AnboxInput
+AnboxInput	anbox_input.h	/^class AnboxInput{$/;"	c	namespace:anbox
+AudioSink	audio_sink.h	/^  AudioSink(){}$/;"	f	class:anbox::fydeos::AudioSink
+AudioSink	audio_sink.h	/^class AudioSink : public audio::Sink {$/;"	c	namespace:anbox::fydeos
+Axis	wayland_pointer.cc	/^void WaylandPointer::Axis(void* data,$/;"	f	class:anbox::WaylandPointer
+BUSY	wayland_window.h	/^    BUSY$/;"	e	enum:anbox::WaylandWindow::BufferState
+Buffer	wayland_window.h	/^  struct Buffer {$/;"	s	class:anbox::WaylandWindow
+BufferState	wayland_window.h	/^  enum BufferState{$/;"	g	class:anbox::WaylandWindow
+Buffer_Ext	renderer.h	/^struct Buffer_Ext{$/;"	s	namespace:anbox::fydeos
+Button	wayland_pointer.cc	/^void WaylandPointer::Button(void* data,$/;"	f	class:anbox::WaylandPointer
+Cancel	wayland_touch.h	/^  static void Cancel(void* data, wl_touch* obj){$/;"	f	class:anbox::WaylandTouch
+CreateBuffer	wayland_window.cc	/^std::unique_ptr<WaylandWindow::Buffer> WaylandWindow::CreateBuffer($/;"	f	class:anbox::WaylandWindow
+CreateDrmBuffer	wayland_window.cc	/^std::unique_ptr<WaylandWindow::Buffer> WaylandWindow::CreateDrmBuffer($/;"	f	class:anbox::WaylandWindow
+DEFAULT_DELETER	wayland_helper.cc	12;"	d	file:
+DEFAULT_DELETER_FDECL	wayland_helper.h	28;"	d
+DIRTY	wayland_window.h	/^    DIRTY,$/;"	e	enum:anbox::WaylandWindow::BufferState
+DequeueBuffer	wayland_window.cc	/^WaylandWindow::Buffer* WaylandWindow::DequeueBuffer() {$/;"	f	class:anbox::WaylandWindow
+Down	wayland_touch.h	/^  static void Down(void* data,$/;"	f	class:anbox::WaylandTouch
+Enter	wayland_keyboard.h	/^  static void Enter(void* data,$/;"	f	class:anbox::WaylandKeyboard
+Enter	wayland_pointer.cc	/^void WaylandPointer::Enter(void* data,$/;"	f	class:anbox::WaylandPointer
+Frame	wayland_touch.h	/^  static void Frame(void* data, wl_touch* obj){$/;"	f	class:anbox::WaylandTouch
+FrameCallback	wayland_window.cc	/^void FrameCallback(void* data, wl_callback* callback, uint32_t time) {$/;"	f	namespace:anbox
+Globals	wayland_helper.h	/^struct Globals {$/;"	s	namespace:fydeos
+IDLE	wayland_window.h	/^    IDLE,$/;"	e	enum:anbox::WaylandWindow::BufferState
+Key	wayland_keyboard.h	/^  static void Key(void* data,$/;"	f	class:anbox::WaylandKeyboard
+Keymap	wayland_keyboard.h	/^  static void Keymap(void* data,$/;"	f	class:anbox::WaylandKeyboard
+Leave	wayland_keyboard.h	/^  static void Leave(void* data,$/;"	f	class:anbox::WaylandKeyboard
+Leave	wayland_pointer.cc	/^void WaylandPointer::Leave(void* data,$/;"	f	class:anbox::WaylandPointer
+MAX_FINGERS	anbox_input.h	/^  static const int MAX_FINGERS = 10;$/;"	m	class:anbox::AnboxInput
+MAX_TRACKING_ID	anbox_input.h	/^  static const int MAX_TRACKING_ID = 10;$/;"	m	class:anbox::AnboxInput
+Modifiers	wayland_keyboard.h	/^  static void Modifiers(void* data,$/;"	f	class:anbox::WaylandKeyboard
+Motion	wayland_pointer.cc	/^void WaylandPointer::Motion(void* data,$/;"	f	class:anbox::WaylandPointer
+Motion	wayland_touch.h	/^  static void Motion(void* data,$/;"	f	class:anbox::WaylandTouch
+NONE	wayland_window.h	/^    NONE,$/;"	e	enum:anbox::WaylandWindow::BufferState
+Renderer	renderer.h	/^class Renderer{$/;"	c	namespace:anbox::fydeos
+RepeatInfo	wayland_keyboard.h	/^  static void RepeatInfo(void* data,$/;"	f	class:anbox::WaylandKeyboard
+SyncCallback	wayland_keyboard.h	/^  static void SyncCallback(void* data, struct wl_callback* cb, uint32_t time){$/;"	f	class:anbox::WaylandKeyboard
+Up	wayland_touch.h	/^  static void Up(void* data,$/;"	f	class:anbox::WaylandTouch
+WaylandKeyboard	wayland_keyboard.cc	/^WaylandKeyboard::WaylandKeyboard($/;"	f	class:anbox::WaylandKeyboard
+WaylandKeyboard	wayland_keyboard.h	/^class WaylandKeyboard{$/;"	c	namespace:anbox
+WaylandPlatform	wayland_platform.cc	/^WaylandPlatform::WaylandPlatform(const std::shared_ptr<input::Manager> &input_manager):$/;"	f	class:anbox::WaylandPlatform
+WaylandPlatform	wayland_platform.h	/^class WaylandPlatform: $/;"	c	namespace:anbox
+WaylandPointer	wayland_pointer.cc	/^WaylandPointer::WaylandPointer($/;"	f	class:anbox::WaylandPointer
+WaylandPointer	wayland_pointer.h	/^class WaylandPointer{$/;"	c	namespace:anbox
+WaylandRenderer	renderer.h	/^class WaylandRenderer{$/;"	c	namespace:anbox::fydeos
+WaylandTouch	wayland_touch.cc	/^WaylandTouch::WaylandTouch($/;"	f	class:anbox::WaylandTouch
+WaylandTouch	wayland_touch.h	/^class WaylandTouch{$/;"	c	namespace:anbox
+WaylandWindow	wayland_window.cc	/^WaylandWindow::WaylandWindow($/;"	f	class:anbox::WaylandWindow
+WaylandWindow	wayland_window.h	/^class WaylandWindow: $/;"	c	namespace:anbox
+anbox	anbox_input.h	/^namespace anbox{$/;"	n
+anbox	audio_sink.h	/^namespace anbox {$/;"	n
+anbox	renderer.h	/^namespace anbox{$/;"	n
+anbox	wayland_keyboard.cc	/^namespace anbox{$/;"	n	file:
+anbox	wayland_keyboard.h	/^namespace anbox{$/;"	n
+anbox	wayland_platform.cc	/^namespace anbox{  $/;"	n	file:
+anbox	wayland_platform.h	/^namespace anbox{$/;"	n
+anbox	wayland_pointer.cc	/^namespace anbox{$/;"	n	file:
+anbox	wayland_pointer.h	/^namespace anbox{$/;"	n
+anbox	wayland_touch.cc	/^namespace anbox{$/;"	n	file:
+anbox	wayland_touch.h	/^namespace anbox{$/;"	n
+anbox	wayland_window.cc	/^namespace anbox{$/;"	n	file:
+anbox	wayland_window.h	/^namespace anbox{$/;"	n
+aura_shell	wayland_helper.h	/^  std::unique_ptr<zaura_shell> aura_shell;$/;"	m	struct:fydeos::Globals
+bind	wayland_window.cc	/^anbox::fydeos::Buffer_Ext* WaylandWindow::bind(){    $/;"	f	class:anbox::WaylandWindow
+bo	wayland_window.h	/^    std::unique_ptr<gbm_bo> bo;$/;"	m	struct:anbox::WaylandWindow::Buffer
+bo_usage_	wayland_window.h	/^  int32_t bo_usage_ = GBM_BO_USE_SCANOUT | GBM_BO_USE_RENDERING | GBM_BO_USE_TEXTURING;$/;"	m	class:anbox::WaylandWindow
+buffer	wayland_window.h	/^    std::unique_ptr<wl_buffer> buffer;$/;"	m	struct:anbox::WaylandWindow::Buffer
+buffers_	wayland_window.h	/^  std::vector<std::unique_ptr<Buffer>> buffers_;$/;"	m	class:anbox::WaylandWindow
+callback_	wayland_platform.h	/^  std::unique_ptr<wl_callback> callback_;$/;"	m	class:anbox::WaylandPlatform
+compositor	wayland_helper.h	/^  std::unique_ptr<wl_compositor> compositor;$/;"	m	struct:fydeos::Globals
+container_network_address_	container.cc	/^std::string container_network_address_;$/;"	v
+container_network_dns_servers_	container.cc	/^std::string container_network_dns_servers_;$/;"	v
+container_network_gateway_	container.cc	/^std::string container_network_gateway_;$/;"	v
+create_audio_sink	wayland_platform.cc	/^std::shared_ptr<audio::Sink> WaylandPlatform::create_audio_sink(){$/;"	f	class:anbox::WaylandPlatform
+create_window	wayland_platform.cc	/^std::shared_ptr<wm::Window> WaylandPlatform::create_window($/;"	f	class:anbox::WaylandPlatform
+current_left_	wayland_touch.h	/^  int current_left_;$/;"	m	class:anbox::WaylandTouch
+current_rect_	wayland_window.h	/^  anbox::graphics::Rect current_rect_;$/;"	m	class:anbox::WaylandWindow
+current_top_	wayland_touch.h	/^  int current_top_;$/;"	m	class:anbox::WaylandTouch
+current_window_location_	wayland_pointer.h	/^  gfx::PointF current_window_location_;$/;"	m	class:anbox::WaylandPointer
+data_path_	container.cc	/^std::string data_path_;$/;"	v
+device_	wayland_window.h	/^  std::unique_ptr<gbm_device> device_;$/;"	m	class:anbox::WaylandWindow
+display_	wayland_platform.h	/^  std::shared_ptr<wl_display> display_;$/;"	m	class:anbox::WaylandPlatform
+display_	wayland_window.h	/^  std::shared_ptr<wl_display> display_;$/;"	m	class:anbox::WaylandWindow
+display_frame_	anbox_input.h	/^  graphics::Rect display_frame_;$/;"	m	class:anbox::AnboxInput
+drm_fd_	wayland_window.h	/^  int drm_fd_ = -1;$/;"	m	class:anbox::WaylandWindow
+drm_format_	wayland_window.h	/^  int32_t drm_format_ = DRM_FORMAT_ARGB8888;$/;"	m	class:anbox::WaylandWindow
+enable_rootfs_overlay_	container.cc	/^bool enable_rootfs_overlay_ = false;$/;"	v
+ext	wayland_window.h	/^    fydeos::Buffer_Ext ext;$/;"	m	struct:anbox::WaylandWindow::Buffer
+fbo	renderer.h	/^  GLuint fbo;$/;"	m	struct:anbox::fydeos::Buffer_Ext
+find_touch_slot	anbox_input.h	/^  int find_touch_slot(int id){$/;"	f	class:anbox::AnboxInput
+fullscreen_shell	wayland_helper.h	/^  std::unique_ptr<zwp_fullscreen_shell_v1> fullscreen_shell;$/;"	m	struct:fydeos::Globals
+fydeos	audio_sink.h	/^namespace fydeos {$/;"	n	namespace:anbox
+fydeos	renderer.h	/^namespace fydeos{$/;"	n	namespace:anbox
+fydeos	wayland_helper.h	/^namespace fydeos{$/;"	n
+getDisplay	wayland_platform.h	/^  wl_display* getDisplay(){ return display_.get(); }$/;"	f	class:anbox::WaylandPlatform
+getWindowFromSurface	wayland_window.h	/^  static WaylandWindow* getWindowFromSurface(wl_surface *surface){$/;"	f	class:anbox::WaylandWindow
+get_clipboard_data	wayland_platform.cc	/^platform::BasePlatform::ClipboardData WaylandPlatform::get_clipboard_data(){$/;"	f	class:anbox::WaylandPlatform
+globals_	wayland_platform.h	/^  ::fydeos::Globals globals_;$/;"	m	class:anbox::WaylandPlatform
+globals_	wayland_window.h	/^  const ::fydeos::Globals &globals_;$/;"	m	class:anbox::WaylandWindow
+height	wayland_window.h	/^    int width, height;    $/;"	m	struct:anbox::WaylandWindow::Buffer
+image	renderer.h	/^  EGLImageKHR image;$/;"	m	struct:anbox::fydeos::Buffer_Ext
+init	anbox_input.h	/^  void init(graphics::Rect &display_frame){$/;"	f	class:anbox::AnboxInput
+init	wayland_window.cc	/^bool WaylandWindow::init(){$/;"	f	class:anbox::WaylandWindow
+input_manager_	anbox_input.h	/^  std::shared_ptr<input::Manager> input_manager_;$/;"	m	class:anbox::AnboxInput
+input_manager_	wayland_keyboard.h	/^  AnboxInput *input_manager_;$/;"	m	class:anbox::WaylandKeyboard
+input_manager_	wayland_pointer.h	/^  AnboxInput *input_manager_;$/;"	m	class:anbox::WaylandPointer
+input_manager_	wayland_touch.h	/^  AnboxInput *input_manager_;$/;"	m	class:anbox::WaylandTouch
+input_surface_	wayland_window.h	/^  std::unique_ptr<zcr_input_method_surface_v1> input_surface_;  $/;"	m	class:anbox::WaylandWindow
+input_timestamps_manager	wayland_helper.h	/^  std::unique_ptr<zwp_input_timestamps_manager_v1> input_timestamps_manager;$/;"	m	struct:fydeos::Globals
+keyboard_	anbox_input.h	/^  std::shared_ptr<input::Device> keyboard_;$/;"	m	class:anbox::AnboxInput
+keyboard_	wayland_keyboard.h	/^  std::shared_ptr<wl_keyboard> keyboard_;$/;"	m	class:anbox::WaylandKeyboard
+last_slot	anbox_input.h	/^  int last_slot = -1;$/;"	m	class:anbox::AnboxInput
+linux_dmabuf	wayland_helper.h	/^  std::unique_ptr<zwp_linux_dmabuf_v1> linux_dmabuf;$/;"	m	struct:fydeos::Globals
+linux_explicit_synchronization	wayland_helper.h	/^  std::unique_ptr<zwp_linux_explicit_synchronization_v1> linux_explicit_synchronization;$/;"	m	struct:fydeos::Globals
+location_	wayland_pointer.h	/^  gfx::PointF location_;$/;"	m	class:anbox::WaylandPointer
+main	container.cc	/^int main(int argc, char** argv) {$/;"	f
+main	session.cc	/^int main(int argc, char** argv) {  $/;"	f
+messageLoop	wayland_platform.cc	/^void WaylandPlatform::messageLoop(){$/;"	f	class:anbox::WaylandPlatform
+messageLoop	wayland_window.h	/^  void messageLoop(){$/;"	f	class:anbox::WaylandWindow
+message_thread_	wayland_platform.h	/^  std::thread message_thread_;$/;"	m	class:anbox::WaylandPlatform
+message_thread_	wayland_window.h	/^  std::thread message_thread_;$/;"	m	class:anbox::WaylandWindow
+mounts_	container.cc	/^std::vector<std::shared_ptr<common::MountEntry>> mounts_;$/;"	v
+next_window_id_	wayland_platform.h	/^  int32_t next_window_id_ = 0;$/;"	m	class:anbox::WaylandPlatform
+num_buffers_	wayland_window.h	/^  size_t num_buffers_ = 2;$/;"	m	class:anbox::WaylandWindow
+output	wayland_helper.h	/^  std::unique_ptr<wl_output> output;$/;"	m	struct:fydeos::Globals
+override	wayland_platform.h	/^  bool supports_multi_window() const override;  $/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  platform::BasePlatform::ClipboardData get_clipboard_data() override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  std::shared_ptr<audio::Sink> create_audio_sink() override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  std::shared_ptr<wm::Window> create_window(const anbox::wm::Task::Id &task, const anbox::graphics::Rect &frame, const std::string &title) override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  void set_clipboard_data(const platform::BasePlatform::ClipboardData &data) override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  void set_renderer(const std::shared_ptr<Renderer> &renderer) override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_platform.h	/^  void set_window_manager(const std::shared_ptr<wm::Manager> &window_manager) override;$/;"	m	class:anbox::WaylandPlatform
+override	wayland_window.h	/^  anbox::fydeos::Buffer_Ext* bind() override;$/;"	m	class:anbox::WaylandWindow
+override	wayland_window.h	/^  void unbind(anbox::fydeos::Buffer_Ext *pExt) override;$/;"	m	class:anbox::WaylandWindow
+params	wayland_window.h	/^    std::unique_ptr<zwp_linux_buffer_params_v1> params;$/;"	m	struct:anbox::WaylandWindow::Buffer
+pointer_	anbox_input.h	/^  std::shared_ptr<input::Device> pointer_;$/;"	m	class:anbox::AnboxInput
+pointer_	wayland_pointer.h	/^  std::shared_ptr<wl_pointer> pointer_;$/;"	m	class:anbox::WaylandPointer
+pointer_	wayland_window.h	/^  std::unique_ptr<wl_pointer> pointer_;$/;"	m	class:anbox::WaylandWindow
+presentation	wayland_helper.h	/^  std::unique_ptr<wp_presentation> presentation;$/;"	m	struct:fydeos::Globals
+privileged_	container.cc	/^bool privileged_ = true;$/;"	v
+push_finger_down	anbox_input.h	/^  void push_finger_down(int x, int y, int finger_id, std::vector<input::Event> &touch_events){$/;"	f	class:anbox::AnboxInput
+push_finger_motion	anbox_input.h	/^  void push_finger_motion(int x, int y, int finger_id, std::vector<input::Event> &touch_events){$/;"	f	class:anbox::AnboxInput
+push_finger_up	anbox_input.h	/^  void push_finger_up(int finger_id, std::vector<input::Event> &touch_events){$/;"	f	class:anbox::AnboxInput
+push_slot	anbox_input.h	/^  void push_slot(std::vector<input::Event> &touch_events, int slot){$/;"	f	class:anbox::AnboxInput
+queue_	wayland_platform.h	/^  std::unique_ptr<wl_event_queue> queue_;$/;"	m	class:anbox::WaylandPlatform
+registry_	wayland_platform.h	/^  std::unique_ptr<wl_registry> registry_;$/;"	m	class:anbox::WaylandPlatform
+registry_	wayland_window.h	/^  std::unique_ptr<wl_registry> registry_;$/;"	m	class:anbox::WaylandWindow
+remote_shell	wayland_helper.h	/^  std::unique_ptr<zcr_remote_shell_v1> remote_shell;$/;"	m	struct:fydeos::Globals
+remote_shell_surface_	wayland_window.h	/^  std::unique_ptr<zcr_remote_surface_v1> remote_shell_surface_;$/;"	m	class:anbox::WaylandWindow
+renderer_	wayland_platform.h	/^  std::shared_ptr<Renderer> renderer_;$/;"	m	class:anbox::WaylandPlatform
+scale_	wayland_platform.h	/^  int scale_;  $/;"	m	class:anbox::WaylandPlatform
+scale_	wayland_window.h	/^  int scale_ = 1;$/;"	m	class:anbox::WaylandWindow
+seat	wayland_helper.h	/^  std::unique_ptr<wl_seat> seat;$/;"	m	struct:fydeos::Globals
+session	session.cc	/^int session(){$/;"	f
+set_clipboard_data	wayland_platform.cc	/^void WaylandPlatform::set_clipboard_data(const platform::BasePlatform::ClipboardData &data){$/;"	f	class:anbox::WaylandPlatform
+set_renderer	wayland_platform.cc	/^void WaylandPlatform::set_renderer(const std::shared_ptr<Renderer> &renderer){$/;"	f	class:anbox::WaylandPlatform
+set_window_manager	wayland_platform.cc	/^void WaylandPlatform::set_window_manager(const std::shared_ptr<wm::Manager> &window_manager){$/;"	f	class:anbox::WaylandPlatform
+setup_mounts	container.cc	/^bool setup_mounts() {$/;"	f
+setup_rootfs_overlay	container.cc	/^bool setup_rootfs_overlay() {$/;"	f
+shell	wayland_helper.h	/^  std::unique_ptr<wl_shell> shell;$/;"	m	struct:fydeos::Globals
+shell_activated	wayland_platform.cc	/^void WaylandPlatform::shell_activated(void *data,$/;"	f	class:anbox::WaylandPlatform
+shell_configuration_changed	wayland_platform.cc	/^void WaylandPlatform::shell_configuration_changed(void *data,$/;"	f	class:anbox::WaylandPlatform
+shell_configure	wayland_platform.cc	/^void WaylandPlatform::shell_configure(void *data, struct zcr_remote_shell_v1 *zcr_remote_shell_v1, uint32_t layout_mode){$/;"	f	class:anbox::WaylandPlatform
+shell_default_device_scale_factor	wayland_platform.cc	/^void WaylandPlatform::shell_default_device_scale_factor(void *data, struct zcr_remote_shell_v1 *zcr_remote_shell_v1, int32_t scale){$/;"	f	class:anbox::WaylandPlatform
+shell_display_info	wayland_platform.cc	/^void WaylandPlatform::shell_display_info(void *data,$/;"	f	class:anbox::WaylandPlatform
+shell_surface_bounds_changed	wayland_window.cc	/^void WaylandWindow::shell_surface_bounds_changed(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_change_zoom_level	wayland_window.cc	/^void WaylandWindow::shell_surface_change_zoom_level(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_close	wayland_window.cc	/^void WaylandWindow::shell_surface_close(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_configure	wayland_window.cc	/^void WaylandWindow::shell_surface_configure(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_drag_finished	wayland_window.cc	/^void WaylandWindow::shell_surface_drag_finished(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_drag_started	wayland_window.cc	/^void WaylandWindow::shell_surface_drag_started(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_state_type_changed	wayland_window.cc	/^void WaylandWindow::shell_surface_state_type_changed(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_surface_window_geometry_changed	wayland_window.cc	/^void WaylandWindow::shell_surface_window_geometry_changed(void *data,$/;"	f	class:anbox::WaylandWindow
+shell_workspace	wayland_platform.cc	/^void WaylandPlatform::shell_workspace(void *data,$/;"	f	class:anbox::WaylandPlatform
+shell_workspace_info	wayland_platform.cc	/^void WaylandPlatform::shell_workspace_info(void *data,$/;"	f	class:anbox::WaylandPlatform
+shm	wayland_helper.h	/^  std::unique_ptr<wl_shm> shm;$/;"	m	struct:fydeos::Globals
+state	wayland_window.h	/^    BufferState state;    $/;"	m	struct:anbox::WaylandWindow::Buffer
+subcompositor	wayland_helper.h	/^  std::unique_ptr<wl_subcompositor> subcompositor;$/;"	m	struct:fydeos::Globals
+supports_multi_window	wayland_platform.cc	/^bool WaylandPlatform::supports_multi_window() const {$/;"	f	class:anbox::WaylandPlatform
+surface_	wayland_window.h	/^  std::unique_ptr<wl_surface> surface_;  $/;"	m	class:anbox::WaylandWindow
+task_	wayland_window.h	/^  anbox::wm::Task::Id task_;$/;"	m	class:anbox::WaylandWindow
+texture	renderer.h	/^  GLuint texture;$/;"	m	struct:anbox::fydeos::Buffer_Ext
+top_inset_	wayland_window.h	/^  int top_inset_ = 32;$/;"	m	class:anbox::WaylandWindow
+touch	wayland_helper.h	/^  std::unique_ptr<wl_touch> touch;$/;"	m	struct:fydeos::Globals
+touch_	anbox_input.h	/^  std::shared_ptr<input::Device> touch_;$/;"	m	class:anbox::AnboxInput
+touch_	wayland_touch.h	/^  std::shared_ptr<wl_touch> touch_;$/;"	m	class:anbox::WaylandTouch
+touch_slots	anbox_input.h	/^  int touch_slots[MAX_FINGERS];$/;"	m	class:anbox::AnboxInput
+transform_	wayland_window.h	/^  int transform_ = WL_OUTPUT_TRANSFORM_NORMAL;$/;"	m	class:anbox::WaylandWindow
+transparent_background_	wayland_window.h	/^  bool transparent_background_ = false;  $/;"	m	class:anbox::WaylandWindow
+unbind	wayland_window.cc	/^void WaylandWindow::unbind(anbox::fydeos::Buffer_Ext *pExt){  $/;"	f	class:anbox::WaylandWindow
+viewporter	wayland_helper.h	/^  std::unique_ptr<wp_viewporter> viewporter;$/;"	m	struct:fydeos::Globals
+width	wayland_window.h	/^    int width, height;    $/;"	m	struct:anbox::WaylandWindow::Buffer
+window	wayland_window.h	/^    WaylandWindow *window;$/;"	m	struct:anbox::WaylandWindow::Buffer
+window_manager_	wayland_platform.h	/^  std::shared_ptr<wm::Manager> window_manager_;$/;"	m	class:anbox::WaylandPlatform
+window_manager_	wayland_window.h	/^  std::shared_ptr<wm::Manager> window_manager_;$/;"	m	class:anbox::WaylandWindow
+window_rect_	wayland_platform.h	/^  anbox::graphics::Rect window_rect_;$/;"	m	class:anbox::WaylandPlatform
+windows_	wayland_platform.h	/^  std::map<int32_t, std::weak_ptr<wm::Window>> windows_;$/;"	m	class:anbox::WaylandPlatform
+y_invert_	wayland_window.h	/^  bool y_invert_ = true;$/;"	m	class:anbox::WaylandWindow
+zxdg_shell	wayland_helper.h	/^  std::unique_ptr<zxdg_shell_v6> zxdg_shell;  $/;"	m	struct:fydeos::Globals
+~AudioSink	audio_sink.h	/^  ~AudioSink(){}$/;"	f	class:anbox::fydeos::AudioSink
+~Renderer	renderer.h	/^  virtual ~Renderer(){}$/;"	f	class:anbox::fydeos::Renderer
+~WaylandKeyboard	wayland_keyboard.cc	/^WaylandKeyboard::~WaylandKeyboard(){}$/;"	f	class:anbox::WaylandKeyboard
+~WaylandPlatform	wayland_platform.cc	/^WaylandPlatform::~WaylandPlatform(){}$/;"	f	class:anbox::WaylandPlatform
+~WaylandPointer	wayland_pointer.cc	/^WaylandPointer::~WaylandPointer(){}$/;"	f	class:anbox::WaylandPointer
+~WaylandRenderer	renderer.h	/^  virtual ~WaylandRenderer(){}$/;"	f	class:anbox::fydeos::WaylandRenderer
+~WaylandTouch	wayland_touch.cc	/^WaylandTouch::~WaylandTouch(){}$/;"	f	class:anbox::WaylandTouch
+~WaylandWindow	wayland_window.h	/^  virtual ~WaylandWindow(){    $/;"	f	class:anbox::WaylandWindow
